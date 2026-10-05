@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(255, 211, 190);
+}
+h1 {
+    background-color: darksalmon;
+    border: none;
+    width: fit-content;
+    text-align: center;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+header {
+    text-align: center;
+    font-size: 100px;
+    border-bottom: solid 3px;
+    background-color: darksalmon;
+}
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    background-color: ivory;
+    width: fit-content;
+    border: none solid;
+    border-radius: 5px;
+}
+.bottom {
+    transition-duration: 0.5s;
+}
+.bottom:hover {
+    background-color: green;
+    color: white;
+}
+img {
+    animation-duration: 15s;
+    animation-name: animetion;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes animetion {
+  0%   {left:0px; top:0px;}
+  25%  {left:1000px; top:0px;}
+  50%  {left:0px; top:0px;}
+  75%  {left:1000px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 20px;
+    background-color: ivory;
+    width: fit-content;
+    border: none solid;
+    border-radius: 5px;
+}
+#img1 {
+    animation: ease;
+}
